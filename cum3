@@ -1,7 +1,7 @@
 local whitelist = loadstring(game:HttpGet("https://pastebin.com/raw/8wnagXG1", true))()
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
-    print("hi and sex")
+    print("Loaded!Credits to Vortexturize,Pawel and vX_F")
 else
     return
 end
@@ -387,7 +387,7 @@ meta.__namecall=newcclosure(function(self,...)
                 else
                     Args[1] = game.Players[aimlocktarget].Character[targetpart].CFrame + game.Players[aimlocktarget].Character.Torso.Velocity/5
                 end
-                print("aimlock")
+                print("")
             end
         end)
         return namecall(self,unpack(Args))
@@ -2252,15 +2252,15 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
     if inputObject.KeyCode == Enum.KeyCode.Insert then
         LeftAltHeld = true
     end
-    if inputObject.KeyCode == Enum.KeyCode.Insert and gameProcessedEvent == false then
+    if inputObject.KeyCode == Enum.KeyCode.X and gameProcessedEvent == false then
         noclip = not noclip
         local currenttext = ""
         if noclip == true then
             currenttext = ""
         else
-            currenttext = "NoClip is now turned OFF!"
+            currenttext = ""
         end
-        game.StarterGui:SetCore("SendNotification", {
+        game.StarterGui:SetCore("SendNsdotification", {
             Title = "notification";
             Text = currenttext;
             Icon = "rbxassetid://2541869220";
@@ -2894,156 +2894,6 @@ game:GetService('RunService').Stepped:connect(function()
         LocalP.Character.HumanoidRootPart.CFrame = LocalP.Character.HumanoidRootPart.CFrame * CFrame.new(0,JumpHeight,0)
     end
 end)
-
-print("----------------FEATURES-------------------")
-print("Chat commands can also be done as /e :COMMANDNAME or /e COMMANDNAME")
-print("-------------------------------------------")
-print("---------KEYS---------")
-print("X Key - Toggle noclip")
-print("F Key - Toggles flight")
-print("C Key - Full heal / Use stored burgers")
-print("Q Key - Toggle mult-uzi delay (press with multi-uzi tool out)")
-print("Q Key (While flying) - Change between inf fly and shooting fly")
-print("Z Key - Change the aimbot's target between heads and torsos")
-print("T Key - Teleports you to your mouse's position") -- When the bypass is on, this key will teleport you to your mouse
-print("R Key - Let's you do a cool combat roll B)")
-print("P Key - Resets your character")
-print("E Key - Stomp people (Tweaked to work without weapons and with guns)")
-print("")
-print("CTRL + SHIFT + CLICK - Set aimlock target to player closest to your mouse")
-print("HOLD SHIFT + E - Spam stomp")
-print("")
-print("K Key - Toggle super-run")
-print("- Key - Lower super-run speed")
-print("+ Key - Raise super-run speed")
-print("")
-print("L Key - Toggle super-jump")
-print("[ Key - Lower super-jump speed")
-print("] Key - Raise super-jump speed")
-print("")
-print("RIGHT CLICK")
-print("- Right click on doors to toggle their locks")
-print("- Right click with a gun out in first person to target fire at the player closest to your mouse")
-print("")
-print("LEADERBOARD")
-print("- Click a player's name on the leaderboard, then click TOGGLE TRACE to toggle tracing them")
-print("")
-print("---------CHAT COMMANDS---------")
-print("Shortened names work")
-print("-------------------------------")
-print("")
-print(":find PLAYERNAME - finds player")
-print(":trace PLAYERNAME - finds player")
-print(":unfind PLAYERNAME - unfinds player")
-print(":untrace PLAYERNAME - unfinds player")
-print("")
-print(":noslow - Prevents you from being stopped while reloading, eating, stomping, etc")
-print(":unnoslow - Turns off noslow")
-print("")
-print(":noknock - Prevents you from being tripped or stunned")
-print(":unnoknock - Turns off noknock")
-print("")
-print(":triggerbot - Automatically attacks people who attack you with multi-uzi")
-print(":trigger - Automatically attacks people who attack you with multi-uzi")
-print(":untriggerbot - Turns off triggerbot")
-print(":untrigger - Turns off triggerbot")
-print("")
-print(":flyspeed NUMBER - sets your flyspeed to NUMBER")
-print("")
-print(":autoheal - Automatically heals you if you take over 24 damage")
-print(":unautoheal - Automatically heals you if you take over 24 damage")
-print("")
-print(":bypass - Turns the teleport + fly bypass ON")
-print(":unbypass - Turns the teleport + fly bypass OFF")
-print("")
-print(":get ITEM - gets the item with the inputted name (bypass only)")
-print("")
-print(":invis TOOLNAME - Makes the gun invisible, and stops it's animations")
-print("")
-print(":cashfarm - Afk cash farm (use overnight, etc)")
-print(":uncashfarm - Turns off the afk cash farm")
-print("")
-print(":bring THING - Brings thing to you (list of things you can bring below)")
-print(":bring THING PLAYERNAME - Brings thing to player with matching name")
-print("")
-print(":walkspeed NUMBER - Sets your walkspeed to the given number")
-print(":ws NUMBER - Sets your walkspeed to the given number")
-print(":runspeed NUMBER - Sets your runspeed to the given number (CFrame run is faster than WalkSpeed run)")
-print(":runtype RUNTYPE - Current runtypes are cframe and walkspeed (shortened names work)")
-print("")
-print(":aimlock PLAYERNAME - Makes your shots always target the target player")
-print(":lockaim PLAYERNAME - Makes your shots always target the target player")
-print(":unaimlock - Makes your left click shoot forwards, like normal")
-print(":unlockaim - Makes your left click shoot forwards, like normal")
-print("")
-print(":camlock PLAYERNAME - Locks your camera onto a certain player (good for melee fights)")
-print(":lockcam PLAYERNAME - Locks your camera onto a certain player (good for melee fights)")
-print(":uncamlock - Returns your camera to normal")
-print(":unlockcam - Returns your camera to normal")
---[[
-print("")
-print(":passivemode - Breaks your tools, and makes you invulnerable to all attacks")
-print(":passive - Breaks your tools, and makes you invulnerable to all attacks")
-print(":unpassivemode - Turns off passive mode")
-print(":unpassive - Turns off passive mode")
---]]
-print("")
-print(":rejoin - Rejoins the server")
-print(":reset - Resets your character")
-print("")
-print("-------------------------------------------")
-print('-------------"GET"-ABLE ITEMS--------------')
-print("-------------------------------------------")
-print("")
-print("Things below can be gotten with the :get command")
-print('              Example: ":get uzi"               ')
-print("")
-print("uzi")
-print("glock")
-print("ammo")
-print("sawed")
-print("shotty")
-print("burger")
-print("drink")
-print("")
-print("-------------------------------------------")
-print('------------"BRING"-ABLE ITEMS-------------')
-print("-------------------------------------------")
-print("")
-print("Things below can be gotten with the :bring command")
-print('             Example: ":bring planks"             ')
-print("             Shortened names work               ")
-print("")
-print("planks - All planks on the map")
-print("cans - All soda cans on the map")
-print("bins - All trashcans on the map")
-print("cars - All cars on the map (that aren't being used)")
-print("grass - The one unanchored grass part")
-print("wedges - All the unanchored wedges")
-print("misc - All unanchored wedges and grass")
-print("all - All unanchored parts")
-print("")
-print("-------------------------------------------")
-print('--------------USING MULTI-UZI--------------')
-print("-------------------------------------------")
-print("")
-print("LEFT CLICK")
-print("- Normal multi-uzi shot")
-print("RIGHT CLICK")
-print("- Targeted multi-uzi shot (shoots at player closest to mouse)")
-print("Q Key")
-print("- Toggles uzi delay (difference between fast fire and one shot)")
-print("RELOADING")
-print("- Walk over a reload buying pad with the multi-uzi equipped to reload uzis one by one")
-print("GATHER UZIS")
-print("- Uzis are stored whenever you obtain a new uzi")
-print("MULTI-UZI INFO")
-print("- Hover your mouse over the multi-uzi tool to see info. (amount of uzis, total damage, clips, and ammo)")
-print("")
-print("-------------------------------------------")
-print("Vortexturize | aidez moi#4192 | Aidez")
-print("-------------------------------------------")
-
 for i,v in pairs(game.CoreGui.RobloxGui:GetChildren()) do
     if not string.find(v.Name, "%a") and not string.find(v.Name, "%p") and string.find(v.Name, "%d") then
         for i,v in pairs(game.Workspace:GetDescendants()) do
