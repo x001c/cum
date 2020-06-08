@@ -4946,7 +4946,7 @@ wait(0.1)
 game:service('Players').LocalPlayer:Kick('Good fucking job bro.')
 end
 game:GetService("Players").LocalPlayer.Chatted:connect(function(msg)
-	if msg:lower() == "gui" then
+	if msg:lower() == "rejoin" then
 for i = 1,math.huge do
         game:GetService('TeleportService'):Teleport(game.PlaceId)
         wait()
