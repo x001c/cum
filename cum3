@@ -2144,7 +2144,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
             Duration = 0.00001;
         })
     end
-    if inputObject.KeyCode == Enum.KeyCode.Insert and gameProcessedEvent == false then        
+    if inputObject.KeyCode == Enum.KeyCode.L and gameProcessedEvent == false then        
         SuperRun = not SuperRun
         local currenttext = ""
         if SuperRun == true then
@@ -2152,7 +2152,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = "SuperRun is now turned OFF!"
         end
-        game.StarterGui:SetCore("SendNotification", {
+        game.StarterGui:SetCore("RANDOM ERROR&&&", {
             Title = "notification";
             Text = currenttext;
             Icon = "rbxassetid://2541869220";
