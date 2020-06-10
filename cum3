@@ -1,5 +1,5 @@
 wait(0.01)
-local whitelist = loadstring(game:HttpGet("https://pastebin.com/raw/8wnagXG1", true))()
+local whitelist = loadstring(game:HttpGet("https://pastebin.com/raw/TfA2TLYX", true))()
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
     print("Loaded!Credits to Vortexturize,Pawel and vX_F")
