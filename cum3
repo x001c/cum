@@ -3,6 +3,7 @@ local whitelist = loadstring(game:HttpGet("https://pastebin.com/raw/TfA2TLYX", t
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
     print("Loaded!Credits to Vortexturize,Pawel and vX_F")
+    print("JOIN OUR DISCORD FOR IDS! https://discord.gg/M9Qv3ca")
 else
     return
 end
