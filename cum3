@@ -25,7 +25,7 @@ local SHeld = false
 local AHeld = false
 local DHeld = false
 local SuperRun = true
-local RunSpeed = 3.857376366362623
+local RunSpeed = 2.473782938433
 local SpeedType = "cframe"
 ShiftHeldLegacy = false
 local SpeedTypes = {
@@ -3217,7 +3217,7 @@ local taunting = false
 local BFGvalue = true
 local lasttaunt
 local sens = 4
-local speed = 5000
+local speed = 6200
 local SpawnPos = 0
 local uis = game:GetService"UserInputService"
 local mps = game:GetService"MarketplaceService"
