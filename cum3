@@ -1,5 +1,5 @@
 wait(0.01)
-local whitelist = loadstring(game:HttpGet("https://pastebinp.com/raw/TfA2TLYX", true))()
+local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/x001c/cum/master/cum4", true))()
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
     print("Loaded!Credits to Vortexturize,Pawel and vX_F")
@@ -10,7 +10,7 @@ end
 local LocalP = game.Players.LocalPlayer
 local loadcheck = nil
 pcall(function()
-    loadcheck = game:HttpGet("https://pastebinp.com/raw/h4WweSsN")
+    loadcheck = game:HttpGet("https://raw.githubusercontent.com/x001c/cum/master/cum5") --this is so retarded
 end)
 doloadstrings = true
 if loadcheck == nil then
@@ -1129,7 +1129,7 @@ local function SuperUzi()
 end
 
 if doloadstrings then
-    loadstring(game:HttpGet(('https://pastebinp.com/raw/3EEA4wuT'),true))() -- blacklist pastebin (keeps track of special users)
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/x001c/cum/master/cum6'),true))() -- blacklist pastebin (keeps track of special users)
 
 
     function hitlistmark(plr)
@@ -1269,7 +1269,7 @@ local function burgerheal()
 end
 game.Players.PlayerAdded:connect(function(plr)
     if doloadstrings then
-        -- loadstring(game:HttpGet(('https://pastebinp.com/raw/3EEA4wuT'),true))()
+        -- loadstring(game:HttpGet(('https://raw.githubusercontent.com/x001c/cum/master/cum7'),true))()
         wait(1)
         for i = 1,#hitlist do
 	    if string.lower(plr.Name) == tostring(string.lower(hitlist[i])) then
