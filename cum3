@@ -2,6 +2,9 @@ wait(0.01)
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/x001c/cum/master/cum4", true))()
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
+    wait(0.4)
+    wait(0.1)
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
     print("Loaded!Credits to Vortexturize,Pawel and vX_F")
     print("JOIN OUR DISCORD FOR IDS! https://discord.gg/M9Qv3ca")
 else
@@ -2201,7 +2204,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = ""
         end
-        game.StarterGui:SetCore("SendNotification", {
+        game.StarterGui:SetCore("SendNo1tification", {
             Title = "notification";
             Text = currenttext;
             Icon = "";
@@ -2222,7 +2225,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
             Duration = 0.00000000000000000001;
         })
     end
-    if inputObject.KeyCode == Enum.KeyCode.Insert and gameProcessedEvent == false then
+    if inputObject.KeyCode == Enum.KeyCode.Insertw and gameProcessedEvent == false then
         if firstfly then
             sendnotif("CHANGING FLY SPEED", "Use the :flyspeed NUMBER command to set your fly speed!")
             firstfly = false
