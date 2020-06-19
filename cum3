@@ -87,7 +87,7 @@ local reequiptool = nil
 
 local targetpart = "Head"
 
-local bypass = true
+local bypass = false
 
 local cashfarm = false
 local cashfarmdebounce = false
