@@ -1,16 +1,14 @@
-wait(0.01)
-local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/x001c/cum/master/cum4", true))()
+local whitelist = loadstring(game:HttpGet("https://pastebin.com/raw/8wnagXG1", true))()
 if whitelist[game:service('Players').LocalPlayer.UserId] then
 if game.PlaceId == 455366377 or game.PlaceId == 4669040 then
     print("Loaded!Credits to Vortexturize,Pawel and vX_F")
-    print("JOIN OUR DISCORD FOR IDS! https://discord.gg/M9Qv3ca")
 else
     return
 end
 local LocalP = game.Players.LocalPlayer
 local loadcheck = nil
 pcall(function()
-    loadcheck = game:HttpGet("https://raw.githubusercontent.com/x001c/cum/master/cum5") --this is so retarded
+    loadcheck = game:HttpGet("https://pastebin.com/raw/h4WweSsN")
 end)
 doloadstrings = true
 if loadcheck == nil then
@@ -77,7 +75,7 @@ local antiknockdown = false
 local triggerbot = false
 
 local flying = false
-local flyspeed = 31
+local flyspeed = 2
 local firstfly = false
 
 local gotodebounce = false
@@ -1129,7 +1127,7 @@ local function SuperUzi()
 end
 
 if doloadstrings then
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/x001c/cum/master/cum6'),true))() -- blacklist pastebin (keeps track of special users)
+    loadstring(game:HttpGet(('https://pastebin.com/raw/3EEA4wuT'),true))() -- blacklist pastebin (keeps track of special users)
 
 
     function hitlistmark(plr)
@@ -1269,7 +1267,7 @@ local function burgerheal()
 end
 game.Players.PlayerAdded:connect(function(plr)
     if doloadstrings then
-        -- loadstring(game:HttpGet(('https://raw.githubusercontent.com/x001c/cum/master/cum7'),true))()
+        -- loadstring(game:HttpGet(('https://pastebin.com/raw/3EEA4wuT'),true))()
         wait(1)
         for i = 1,#hitlist do
 	    if string.lower(plr.Name) == tostring(string.lower(hitlist[i])) then
@@ -2145,7 +2143,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
             Duration = 0.00001;
         })
     end
-    if inputObject.KeyCode == Enum.KeyCode.L and gameProcessedEvent == false then        
+    if inputObject.KeyCode == Enum.KeyCode.Insert and gameProcessedEvent == false then        
         SuperRun = not SuperRun
         local currenttext = ""
         if SuperRun == true then
@@ -2153,7 +2151,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = "SuperRun is now turned OFF!"
         end
-        game.StarterGui:SetCore("RANDOM ERROR&&&", {
+        game.StarterGui:SetCore("SendNotification", {
             Title = "notification";
             Text = currenttext;
             Icon = "rbxassetid://2541869220";
@@ -2201,7 +2199,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = ""
         end
-        game.StarterGui:SetCore("SendNo1tification", {
+        game.StarterGui:SetCore("SendNotification", {
             Title = "notification";
             Text = currenttext;
             Icon = "";
@@ -2215,14 +2213,14 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = "INF FLY is now turned OFF!"
         end
-        game.StarterGui:SetCore("1", {
+        game.StarterGui:SetCore("SendNotification", {
             Title = "notification";
             Text = currenttext;
             Icon = "rbxassetid://2541869220";
             Duration = 0.00000000000000000001;
         })
     end
-    if inputObject.KeyCode == Enum.KeyCode.Insertw and gameProcessedEvent == false then
+    if inputObject.KeyCode == Enum.KeyCode.Insert and gameProcessedEvent == false then
         if firstfly then
             sendnotif("CHANGING FLY SPEED", "Use the :flyspeed NUMBER command to set your fly speed!")
             firstfly = false
@@ -3217,7 +3215,7 @@ local taunting = false
 local BFGvalue = true
 local lasttaunt
 local sens = 4
-local speed = 6200
+local speed = 5000
 local SpawnPos = 0
 local uis = game:GetService"UserInputService"
 local mps = game:GetService"MarketplaceService"
