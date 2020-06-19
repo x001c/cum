@@ -77,7 +77,7 @@ local antiknockdown = false
 local triggerbot = false
 
 local flying = false
-local flyspeed = 2
+local flyspeed = 31
 local firstfly = false
 
 local gotodebounce = false
@@ -2215,7 +2215,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(inputObject, gam
         else
             currenttext = "INF FLY is now turned OFF!"
         end
-        game.StarterGui:SetCore("SendNotification", {
+        game.StarterGui:SetCore("1", {
             Title = "notification";
             Text = currenttext;
             Icon = "rbxassetid://2541869220";
