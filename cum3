@@ -25,7 +25,7 @@ local SHeld = false
 local AHeld = false
 local DHeld = false
 local SuperRun = true
-local RunSpeed = 2.473782938433
+local RunSpeed = 3.39
 local SpeedType = "cframe"
 ShiftHeldLegacy = false
 local SpeedTypes = {
@@ -87,7 +87,7 @@ local reequiptool = nil
 
 local targetpart = "Head"
 
-local bypass = false
+local bypass = true
 
 local cashfarm = false
 local cashfarmdebounce = false
