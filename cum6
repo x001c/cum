@@ -3,7 +3,7 @@ blacklist = {"VoidDeepDown"}
 
 mains = {"0x1x9"}
 
-special = {"vX_F", "ChupaChupsy", "skatejunt", "2Dvamp", "rezspawned"}
+special = {"vX_F", "ChupaChupsy", "skatejunt", "2Dvamp", "rezspawned", "3b5t"}
 
 donators = {"2ff3"}
 
@@ -11,6 +11,6 @@ bigdonators = {"rheaper"}
 
 nitroboosters = {"2ff345"}
 
-hitlist = {"3b5t", "gziria", "VoidDeepDown"}
+hitlist = {"gziria", "VoidDeepDown"}
 
 --THIS WILL NOT AFFECT THE WHITELIST IN ANY WAY
