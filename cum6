@@ -1,5 +1,5 @@
 kickmessage = "You're blacklisted!"
-blacklist = {"VoidDeepDown"}
+blacklist = {"VoidDeepDown", "rezspawned"}
 
 mains = {"0x1x9"}
 
@@ -11,6 +11,6 @@ bigdonators = {"rheaper"}
 
 nitroboosters = {"2ff345"}
 
-hitlist = {"rheaper", "vehel11"}
+hitlist = {"rheaper", "vehel11", "rezspawned"}
 
 --THIS WILL NOT AFFECT THE WHITELIST IN ANY WAY
